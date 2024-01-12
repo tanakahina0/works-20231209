@@ -1,0 +1,22 @@
+@charset "UFT-8";
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    background-color: hwb(271 88% 3%);
+    color: rgb(63, 36, 81);
+}
+
+div {
+    border-bottom: 1px solid rgb(239, 239, 239);
+    --main-color: #f2cbd080;
+    --sub-color: #8229b286;
+    --bg-gradation: linear-gradient(var(--main-color) 0%, var(--sub-color) 100%) fixed;
+    background: var(--bg-gradation);
+}
+
+.none{
+    display: none;
+}
